@@ -5,21 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.a15041867.p02_holidays.MainActivity"
-    android:weightSum="1">
-
+    tools:context="com.example.a15041867.p02_holidays.HolidaysActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvTypes"
         android:layout_width="match_parent"
-        android:layout_height="42dp"
-        android:text="Types of Public Holidays in SG"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Large" />
+        android:layout_height="wrap_content"
+        android:text="TextView" />
 
     <ListView
-        android:id="@+id/lvTypes"
+        android:id="@+id/lvHolidays"
         android:layout_width="match_parent"
-        android:layout_height="467dp"
-        android:layout_weight="0.02" />
-
+        android:layout_height="match_parent" />
 </LinearLayout>
